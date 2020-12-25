@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(img3.jpg);
+  height:100vh;
+  background-size:cover;
+  background-position: center;
+}
+ul{
+  list-style-type:none;
+  float:left;
+  margin-top:30px;
+}
+ul li{
+  display:inline-block;
+  padding:8px;
+}
+ul li a{
+  text-decoration:none;
+  font-size: 30px;
+  color:rgb(255, 255, 255);
+  padding: 12px 35px ;
+  border:2px solid #fff transparent;
+  border-radius:5px;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: #fff;
+  color:aqua;
+}
+.active a{
+  background-color: #fff;
+  color:aqua;
+}
+.title{
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.title{
+  font-size: 210%;
+  font-weight:bolder;
+  color:#fff;
+}
+h2{
+  text-align: center;
+}
+
+.FB img{
+  width:120px;
+  position:absolute;
+  top: 69%;
+  left:40%;
+  transform:translate(-50%,-50%);
+}
+.IG img{
+  width:90px;
+  position:absolute;
+  top: 69%;
+  left:49%;
+  transform:translate(-50%,-50%);
+}
+.YT img{
+  width:180px;
+  position:absolute;
+  top: 69%;
+  left:58%;
+  transform:translate(-50%,-50%);
+}
+
+.logo img{
+  float:right;
+  width:120px;
+  height:auto;
+  margin-top:50px;
+  margin-right:50px ;
+}
